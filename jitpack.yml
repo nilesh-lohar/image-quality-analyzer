@@ -1,4 +1,5 @@
 # https://docs.jitpack.io/android/
-jdk: 17
+jdk:
+  - openjdk17
 install:
   - ./gradlew clean :ImageQualityAnalyzer:publishReleasePublicationToMavenLocal --no-daemon --stacktrace
