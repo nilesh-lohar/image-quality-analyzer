@@ -28,11 +28,12 @@ It is designed to stay small and dependency-light while getting closer to common
 
 ## Installation
 
-Add JitPack to your root `settings.gradle`, `settings.gradle.kts`, or repository configuration:
+Add the JitPack repository to your project-level repositories.
+
+If you use `settings.gradle`:
 
 ```gradle
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
@@ -40,6 +41,8 @@ dependencyResolutionManagement {
     }
 }
 ```
+
+If you use the older project `build.gradle` style, add `maven { url 'https://jitpack.io' }` in your repositories block there.
 
 Then add the dependency:
 
