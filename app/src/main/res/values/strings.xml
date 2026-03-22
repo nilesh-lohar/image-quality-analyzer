@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Image Quality Analyzer Demo</string>
+    <string name="pick_photo">Pick photo</string>
+    <string name="analyzing">Analyzing…</string>
+    <string name="selected_image_preview">Selected image preview</string>
+    <string name="preview_run_app">Preview: run app for photo picker</string>
+    <string name="initial_report">Pick a photo to analyze its quality.</string>
+    <string name="no_image_selected">No image selected.</string>
+    <string name="could_not_load_image">Could not load image from picker.</string>
+    <string name="selected_image_label">Selected image</string>
+
+    <string name="report_heading_summary">Summary</string>
+    <string name="report_heading_quick_checks">Quick Checks</string>
+    <string name="report_heading_sharpness_by_region">Sharpness by Region (%1$dx%2$d)</string>
+    <string name="report_heading_blur_metrics">Blur Metrics</string>
+    <string name="report_heading_darkness_metrics">Darkness Metrics</string>
+    <string name="report_heading_analyzed_size">Analyzed Size</string>
+    <string name="report_label_is_blurry">isBlurry: </string>
+    <string name="report_label_is_blurry_variance_of_laplacian">isBlurryVarianceOfLaplacian: </string>
+    <string name="report_label_is_dark">isDark: </string>
+    <string name="report_value_yes">Yes</string>
+    <string name="report_value_no">No</string>
+    <string name="report_label_blur">Blur: </string>
+    <string name="report_label_map">Map: </string>
+    <string name="report_label_brightness">Brightness: </string>
+    <string name="report_label_row">Row %1$d: </string>
+    <string name="report_blur_metrics_hint">Higher sharpness means the image is likely clearer.</string>
+    <string name="report_darkness_metrics_hint">Higher darkness means the image is likely darker or underexposed.</string>
+</resources>
