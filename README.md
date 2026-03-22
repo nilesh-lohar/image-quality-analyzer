@@ -48,11 +48,9 @@ Then add the dependency:
 
 ```gradle
 dependencies {
-    implementation "com.github.nilesh-lohar:image-quality-analyzer:<version>"
+    implementation "com.github.nilesh-lohar:image-quality-analyzer:1.0.2"
 }
 ```
-
-Replace `<version>` with the release tag you want to use.
 
 ## Basic Usage
 
